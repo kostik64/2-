@@ -1,0 +1,8 @@
+номер1 [client] user=root
+password= 
+Номер 2 CREATE database example; 
+CREATE DATABASE sample; 
+USE example; 
+CREATE TABLE users (id SERIAL PRIMARY KEY, name VARCHAR(255) COMMENT 'Имя пользователя'); 
+exit
+номер3 mysqldump -u root -p example > sample.sql -> mysql -u root -p sample < sample.sql -> mysql -u root -p -> SHOW DATABASES; если честно я не понимаю как это сделать, данный скрипт я нашел попытался разобраться но не получилось, можете объяснить как вызывать датабазы которые я создаю
